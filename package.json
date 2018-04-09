@@ -1,0 +1,12 @@
+{
+  "name": "tcm",
+  "version": "1.0.0",
+  "description": "TCM API tests",
+  "scripts": {
+    "test-api": "newman run tests/TCM.postman_collection.json"
+  },
+  "author": "Vyacheslav Fedorin",
+  "dependencies": {
+    "newman": "^3.9.3"
+  }
+}
