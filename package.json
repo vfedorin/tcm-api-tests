@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "TCM API tests",
   "scripts": {
-    "test-api": "newman run tests/TCM.postman_collection.json"
+    "test-api": "newman run tests/TCM.postman_collection.json --reporters junit --reporter-junit-export newman.xml" 
   },
   "author": "Vyacheslav Fedorin",
   "dependencies": {
